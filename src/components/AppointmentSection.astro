@@ -1,0 +1,164 @@
+---
+// Appointment section component extracted from index.astro
+---
+
+<section class="appointment-section section-spacing-bottom">
+  <div class="w-layout-blockcontainer container w-container">
+    <div class="w-layout-grid grid-appointment">
+      <div style="opacity:0" class="appointment-form-wrapper bg-linear-3">
+        <h2 class="appointment-form-title">Make an appointment</h2>
+        <div class="no-margin">
+          <form method="get">
+            <div class="input-group-wrap">
+              <div class="input-group">
+                <label for="Full-name">Full name</label><input
+                  class="form-input"
+                  maxlength="256"
+                  name="Full-name"
+                  placeholder=""
+                  type="text"
+                  id="Full-name"
+                />
+              </div>
+              <div class="input-group">
+                <label for="Email-address">Email address</label><input
+                  class="form-input"
+                  maxlength="256"
+                  name="Email-address"
+                  placeholder=""
+                  type="email"
+                  id="Email-address"
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="input-group-wrap">
+              <div class="input-group">
+                <label for="Phone-number">Phone number</label><input
+                  class="form-input"
+                  maxlength="256"
+                  name="Phone-number"
+                  placeholder=""
+                  type="text"
+                  id="Phone-number"
+                />
+              </div>
+              <div class="input-group">
+                <label for="Date">Date</label><input
+                  class="form-input"
+                  maxlength="256"
+                  name="Date"
+                  placeholder=""
+                  type="text"
+                  id="Date"
+                />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="field">Choose service</label><select
+                id="field"
+                name="field"
+                class="form-select">
+                <option value="">Select Service</option>
+                <option value="First">Chronic disease management</option>
+                <option value="Second">Preventive Care</option>
+                <option value="Third">Geriatric care</option>
+                <option value="Another option">Women&#x27;s Health</option>
+                <option value="Another option">Pediatric care</option>
+                <option value="Another option">Telemedicine Services</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="Message">Message</label><textarea
+                placeholder=""
+                maxlength="5000"
+                id="Message"
+                name="Message"
+                class="form-input form-textarea"></textarea>
+            </div><input
+              type="submit"
+              class="button-primary-2 form-button"
+              value="Book an appointment"
+            />
+          </form>
+          <div class="success-message">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="error-message">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div style="opacity:0">
+        <h2>Clinic timing</h2>
+        <div class="working-timetable-wrap">
+          <div class="w-layout-grid grid-working-timetable-row">
+            <div>
+              <div>Mon-Wed</div>
+            </div>
+            <div class="working-time-wrap">
+              <div>8 AM - 7 PM</div>
+            </div>
+            <div class="working-place-wrap">
+              <div>Personal clinic</div>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-working-timetable-row">
+            <div>
+              <div>Thursday</div>
+            </div>
+            <div class="working-time-wrap">
+              <div>9 AM - 11 AM</div>
+              <div>12 PM - 7 PM</div>
+            </div>
+            <div class="working-place-wrap">
+              <div>Apple hospital</div>
+              <div>Personal clinic</div>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-working-timetable-row">
+            <div>
+              <div>Friday</div>
+            </div>
+            <div class="working-time-wrap">
+              <div>8 AM - 7 PM</div>
+            </div>
+            <div class="working-place-wrap">
+              <div>Personal clinic</div>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-working-timetable-row">
+            <div>
+              <div>Saturday</div>
+            </div>
+            <div class="working-time-wrap">
+              <div>9 AM - 11 AM</div>
+              <div>12 PM - 7 PM</div>
+            </div>
+            <div class="working-place-wrap">
+              <div>Apple hospital</div>
+              <div>Personal clinic</div>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-working-timetable-row">
+            <div>
+              <div>Sunday</div>
+            </div>
+            <div class="working-time-wrap">
+              <div>Close</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="heading-h6">
+            <span class="text-primary-2">*</span> Time’s not flexible?
+          </h3>
+          <p>
+            I offer high-quality, patient-centered healthcare for personalized
+            care and excellent results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
