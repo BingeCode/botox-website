@@ -5,5 +5,4 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://bingecode.github.io",
   base: "/botox-website",
-  outDir: "./docs",
 });
