@@ -1,6 +1,6 @@
 @font-face {
   font-family: Overusedgrotesk;
-  src: url("botox-website/OverusedGrotesk-Medium.otf") format("opentype");
+  src: url("OverusedGrotesk-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Overusedgrotesk;
-  src: url("botox-website/OverusedGrotesk-SemiBold.otf") format("opentype");
+  src: url("OverusedGrotesk-SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -497,7 +497,7 @@ figcaption {
 .checkbox.w--redirected-checked {
   border: 0px solid var(--color--primary-1);
   background-color: var(--color--primary-1);
-  background-image: url("botox-website/check-white.svg");
+  background-image: url("check-white.svg");
   background-position: 50%;
   background-size: auto;
   border-radius: 3px;
@@ -1357,7 +1357,7 @@ figcaption {
   border-radius: var(--border-radius--rounded);
   color: var(--color--white);
   text-align: center;
-  background-image: url("botox-website/bg-01_1bg-01.avif");
+  background-image: url("bg-01_1bg-01.avif");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1961,7 +1961,7 @@ figcaption {
   border-radius: var(--border-radius--lg);
   color: var(--color--white);
   text-align: center;
-  background-image: url("botox-website/bg-01_1bg-01.avif");
+  background-image: url("bg-01_1bg-01.avif");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
